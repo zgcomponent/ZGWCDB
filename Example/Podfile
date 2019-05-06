@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZGWCDB_Example' do
+  pod 'ZGWCDB', :path => '../'
+
+  target 'ZGWCDB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
