@@ -1,0 +1,28 @@
+PODS:
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+  - ZGWCDB (0.1.0):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+
+DEPENDENCIES:
+  - ZGWCDB (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SQLiteRepairKit
+    - WCDBOptimizedSQLCipher
+
+EXTERNAL SOURCES:
+  ZGWCDB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+  ZGWCDB: 2acb33fe7909ed6fba2427d5d2e4aec177840f70
+
+PODFILE CHECKSUM: b903668851070df30141b9d43b590a7731325272
+
+COCOAPODS: 1.6.0.beta.1
